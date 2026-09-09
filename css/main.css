@@ -1,0 +1,69 @@
+
+body {background-color: rgb(253, 251, 249);}
+
+.headerstyle1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: fit-content;
+    margin: auto;
+
+    position: relative;
+    color: white;
+    min-height: 5vh; /*styrre størrelsen af "siden"*/
+
+    h3{color: black;}
+    h1{color: black}
+
+}
+
+info1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: fit-content;
+    margin: auto;
+}
+
+.omkring1 {
+display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: fit-content;
+    margin: auto;
+    h1{color: black;}
+
+}
+
+.headerstyle2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 700px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 30px;
+
+    color: white;
+    text-decoration: none;
+}
+
+.tab-t {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
